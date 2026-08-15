@@ -14,4 +14,4 @@ jobs:
           fetch-depth: 0
       
       - name: DCO Check
-        uses: meowingcats01/dco-action@v1
+        uses: tisonkun/actions-dco@v1.1
