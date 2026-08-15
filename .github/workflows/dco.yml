@@ -1,0 +1,12 @@
+name: DCO Check
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  dco:
+    runs-on: ubuntu-latest
+    steps:
+      - name: DCO Check
+        uses: dcoapp/dco-check@v1
